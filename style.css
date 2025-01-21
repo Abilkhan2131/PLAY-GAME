@@ -1,0 +1,103 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7); /* Прозрачный фон для header */
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo img {
+    width: 150px; /* Размер логотипа */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Баннер */
+.banner {
+    text-align: center;
+    padding: 50px;
+}
+
+.banner img {
+    width: 100%;
+    max-width: 1200px;
+    border-radius: 10px;
+}
+
+.banner h2 {
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+
+/* Список игр */
+.games-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.game-card {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    border-radius: 8px;
+    width: 30%;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.game-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.game-card h3 {
+    margin-top: 15px;
+}
+
+.game-card p {
+    color: #ddd;
+}
+
+.button {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+/* Footer */
+footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
